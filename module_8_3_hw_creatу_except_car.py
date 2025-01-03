@@ -4,8 +4,9 @@
 #     def __init__(self, message):
 #         self.message = message
 #
+#
 #     def __str__(self):
-#         print("Ошибка ввода вин номера")
+#         return "Ошибка ввода вин номера"
 #
 #
 # class IncorrectCarNumbers(Exception):
@@ -13,7 +14,7 @@
 #         self.message = message
 #
 #     def __str__(self):
-#         print("Ошибка ввода номера авто")
+#         return "Ошибка ввода номера авто"
 #
 # class Car:
 #     def __init__(self, model, vin, numbers):
